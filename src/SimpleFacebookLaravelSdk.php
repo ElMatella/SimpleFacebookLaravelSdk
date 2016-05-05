@@ -1,5 +1,5 @@
 <?php
-namespace ElMatella\SimpleFacebookLaravelSdk
+namespace ElMatella\SimpleFacebookLaravelSdk;
 
 use Facebook\Facebook;
 

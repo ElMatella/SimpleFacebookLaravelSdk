@@ -1,6 +1,6 @@
 <?php
 
-namespace ElMatella\SimpleFacebookLaravelSdk
+namespace ElMatella\SimpleFacebookLaravelSdk;
 
 use Illuminate\Support\ServiceProvider;
 use ElMatella\SimpleFacebookLaravelSdk\SimpleFacebookLaravelSdk;
