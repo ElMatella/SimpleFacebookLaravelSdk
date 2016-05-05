@@ -28,7 +28,11 @@ If you want to use the Facade that comes with the package, you will also have to
 	'Facebook' => ElMatella\SimpleFacebookLaravelSdk\FacebookFacade::class,
 ]
 ```
-
+Now that your Service Provider is registered, you can launch the following command to copy the config file into `config/facebook.php`:
+```
+php artisan vendor:publish
+```
+By default, the configuration file is going to look for a `FACEBOOK_APP_ID` and a `FACEBOOK_APP_SECRET` in your `.env` file. If you don't want to use it, just edit the `config/facebook.php` file. 
 ## Usage
 
 You now have access to every function part of the Facebook Sdk. I recommend to use the Facade or the helper function. These lines do exactly the same thing:
