@@ -1,0 +1,23 @@
+{
+    "name": "elmatella/simple-facebook-laravel-sdk",
+    "description": "A simple Package to use the PHP Facebook SDK into your Laravel application",
+    "require": {
+        "facebook/php-sdk-v4": "~5.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mathieu Marteau",
+            "email": "marteau.mathieu@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "ElMatella\\SimpleFacebookLaravelSdk\\": "src/"
+        }
+    },
+}
